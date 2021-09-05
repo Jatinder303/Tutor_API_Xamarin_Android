@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/txtItemTutorName"
+        android:hint="Enter Tutor Name"
+        android:layout_weight="0.5"
+        android:textColor="@android:color/background_dark"
+        android:background="@drawable/gradient_bg"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical" >
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/txtItemEmail"
+        android:hint="Enter Email"
+        android:layout_weight="0.5"
+        android:textColor="@android:color/background_dark"
+        android:background="@drawable/gradient_bg"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical" >
+    </EditText>
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/txtItemMobile"
+        android:hint="Enter Mobile"
+        android:layout_weight="0.5"
+        android:textColor="@android:color/background_dark"
+        android:background="@drawable/gradient_bg"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical" >
+    </EditText>
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/txtItemAddress"
+        android:hint="Enter Address"
+        android:layout_weight="0.5"
+        android:textColor="@android:color/background_dark"
+        android:background="@drawable/gradient_bg"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical" >
+    </EditText>
+    <Button
+        android:text="@string/Add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAdd" />
+</LinearLayout>
