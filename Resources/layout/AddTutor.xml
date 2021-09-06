@@ -6,51 +6,53 @@
     android:background="#ffffffff">
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/txtItemTutorName"
         android:hint="Enter Tutor Name"
-        android:layout_weight="0.5"
+        android:layout_weight="0.1"
+        android:layout_margin="5dp" 
         android:textColor="@android:color/background_dark"
-        android:background="@drawable/gradient_bg"
         android:layout_gravity="center_horizontal"
-        android:gravity="center_vertical" >
+        android:gravity="center" >
     </EditText>
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/txtItemEmail"
         android:hint="Enter Email"
-        android:layout_weight="0.5"
-        android:textColor="@android:color/background_dark"
-        android:background="@drawable/gradient_bg"
+        android:layout_weight="0.1"
         android:layout_gravity="center_horizontal"
-        android:gravity="center_vertical" >
+        android:gravity="center"
+        android:layout_margin="5dp" 
+        android:textColor="@android:color/background_dark" >
     </EditText>
         <EditText
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/txtItemMobile"
         android:hint="Enter Mobile"
-        android:layout_weight="0.5"
-        android:textColor="@android:color/background_dark"
-        android:background="@drawable/gradient_bg"
+        android:layout_weight="0.1"
         android:layout_gravity="center_horizontal"
-        android:gravity="center_vertical" >
+        android:gravity="center"
+        android:layout_margin="5dp" 
+        android:textColor="@android:color/background_dark" >
     </EditText>
         <EditText
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/txtItemAddress"
         android:hint="Enter Address"
-        android:layout_weight="0.5"
-        android:textColor="@android:color/background_dark"
-        android:background="@drawable/gradient_bg"
+        android:layout_weight="0.6"
         android:layout_gravity="center_horizontal"
-        android:gravity="center_vertical" >
+        android:gravity="center"
+        android:layout_margin="5dp" 
+        android:textColor="@android:color/background_dark">
     </EditText>
     <Button
         android:text="@string/Add"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnAdd" />
+        android:id="@+id/btnAdd" 
+        android:layout_margin="5dp" 
+        android:layout_weight="0.2"/>
 </LinearLayout>

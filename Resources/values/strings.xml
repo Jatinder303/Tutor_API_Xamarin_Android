@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tutor_API_Xamarin_Android</string>
+    <string name="app_name">Tutor Data Management App</string>
     <string name="action_settings">Settings</string>
 	<string name="Add">Add</string>
 	<string name="Delete">Delete</string>
